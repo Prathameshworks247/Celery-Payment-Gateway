@@ -1,2 +1,3 @@
-# Celery-Payment_Gateway
+# Celery-Payment-Gateway
+
 A Mini Project to truely understand Celery and RabbitMQ
