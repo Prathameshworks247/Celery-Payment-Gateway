@@ -1,2 +1,39 @@
 Agenda.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+
+# Virtual environments
 venv/
+.venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Logs
+*.log
+
+# Alembic (keep migration scripts, ignore local sqlite/db files if any)
+*.db
+*.sqlite3
+
+# Docker
+docker-compose.override.yml
